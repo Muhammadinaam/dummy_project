@@ -1,0 +1,29 @@
+<form *ngIf="mainForm" [formGroup]="mainForm" (ngSubmit)="onSubmit()">
+
+    {{ mainForm.value | json }}
+    <hr>
+    {{ mainForm.valid }}
+    <hr>
+    {{ schema | json }}
+    <hr>
+
+    <ng-container *ngFor="let schemaItem of schema">
+
+        <ng-container *ngIf="schemaItem.elementType == 'input_text'">
+            <div class="form-group">
+              <label for="{{schemaItem.label}}">{{schemaItem.label}}</label>
+              <input type="text" class="form-control" id="{{schemaItem.label}}" formControlName="{{schemaItem.name}}" placeholder="{{schemaItem.placeholder}}">
+              <inaam-field-validation [formGroupToValidate]="mainForm" controlName="{{schemaItem.name}}"></inaam-field-validation>
+            </div>
+        </ng-container>
+
+    </ng-container>
+
+    <div *ngIf="options.showSubmitButton" class="text-right">
+        <button class="btn btn-primary" [disabled]="!mainForm.valid || isLoading">
+            <i class="fa fa-save"></i>
+            Save
+        </button>
+    </div>
+
+</form>

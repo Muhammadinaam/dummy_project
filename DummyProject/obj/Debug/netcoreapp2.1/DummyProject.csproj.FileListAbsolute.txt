@@ -1,0 +1,14 @@
+D:\projects\DummyProject\DummyProject\bin\Debug\netcoreapp2.1\DummyProject.deps.json
+D:\projects\DummyProject\DummyProject\bin\Debug\netcoreapp2.1\DummyProject.runtimeconfig.json
+D:\projects\DummyProject\DummyProject\bin\Debug\netcoreapp2.1\DummyProject.runtimeconfig.dev.json
+D:\projects\DummyProject\DummyProject\bin\Debug\netcoreapp2.1\DummyProject.dll
+D:\projects\DummyProject\DummyProject\bin\Debug\netcoreapp2.1\DummyProject.pdb
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.csprojAssemblyReference.cache
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.csproj.CoreCompileInputs.cache
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.RazorAssemblyInfo.cache
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.RazorAssemblyInfo.cs
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.AssemblyInfoInputs.cache
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.AssemblyInfo.cs
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.RazorTargetAssemblyInfo.cache
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.dll
+D:\projects\DummyProject\DummyProject\obj\Debug\netcoreapp2.1\DummyProject.pdb
